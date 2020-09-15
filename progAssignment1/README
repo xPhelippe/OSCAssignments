@@ -1,0 +1,13 @@
+the purpose of this file was to work with 
+
+1) taking in values from the CLI using C
+2) work with creating and waiting for child processes
+3) sending data between parent and child processes
+
+below is a description of all C files
+
+6138.c: the main file. This was meant to create 1-3 children based on input, add an array by dividing it among the children and then returning the sum to the parent.
+
+argsPractice.c: a simple program to practice taking in arguments the user inputs in the CLI
+
+printfPractice.c: this program was used to help debug an issue I had with processes printing out the same statement multiple times. I learned that I needed to flush stdout in order to solve the issue. 
